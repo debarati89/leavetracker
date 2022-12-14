@@ -1,0 +1,89 @@
+.newUser {
+    flex: 4;
+    margin-left: 20px;
+  }
+  
+  .newUserForm {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .newUserItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  
+  .newUserItem > label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+  }
+  
+  .newUserItem > input {
+    height: 20px;
+    padding: 17px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  .newUserGender > input {
+    margin-top: 15px;
+  }
+  select {
+    padding: 6px;
+    border-radius: 6px;
+  }
+  select >option { 
+    font-size: 15px;
+    color: #555;
+  }
+  .newUserGender>label{
+      margin: 10px;
+      font-size: 18px;
+      color: #555;
+  }
+  
+  .newUserSelect{
+      height: 40px;
+      border-radius: 5px;
+  }
+  
+  .newUserButton{
+      width: 85px;
+      border: none;
+      background-color: rgb(53, 134, 20);
+      color: white;
+      padding: 7px 10px;
+      font-weight: 400;
+      border-radius: 10px;
+      margin-top: 30px;
+      cursor: pointer;
+  }
+  .newUserButton:disabled{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+  }
+  
+  .cancelButton{
+    width: 85px;
+    border: none;
+    margin-left: 10px;
+    background-color: rgb(179, 42, 0);
+    color: white;
+    padding: 7px 10px;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .newUserButton:disabled{
+    background-color: #555;
+    cursor: not-allowed;
+    color: #fff;
+  }
+  

@@ -1,0 +1,111 @@
+.container{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: #fff !important;
+}
+.loaderClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    padding: 0px !important;
+    margin: 0.5px 0px 0px 0px !important;
+    max-width: 99% !important;
+}
+a{
+    text-decoration: none !important;
+    color: #000 !important;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 13px; 
+    display: flex;
+    justify-content: center;
+} 
+.required::after{
+    content: '*';
+    color: red;
+}
+.MTableToolbar-actions-8{
+    position: absolute;
+    padding-left: 149px;
+    color: #000 !important;
+}
+@media (min-width: 1200px){
+    .h1, h1 {
+        font-size: 2rem !important;
+    }
+}
+tbody, td, tfoot, th, thead, tr { 
+    border: .5px solid #d8d8d8 !important;
+}
+.react-datepicker-popper[data-placement^=bottom]{
+    z-index: 99;
+    padding-top: 2px !important;
+}
+.react-datepicker-wrapper{
+    padding-left: 9px !important;
+}
+
+.pl-leave{
+    border-radius: 5px;
+    border: 1px solid #6783ad;
+    text-align: center;
+    padding: 2px;  
+    width: 115px;
+}
+.cl-leave{
+    border-radius: 5px;
+    border: 1px solid #91550b;
+    text-align: center;
+    padding: 2px;  
+    width: 115px;
+}
+.sick-leave{
+    border-radius: 5px;
+    border: 1px solid #009933;
+    text-align: center;
+    padding: 2px;
+    width: 115px;  
+}
+.isActive{
+    border-radius: 5px;
+    border: 1px solid #009933;
+    text-align: center;
+    padding: 2px;
+    width: 115px;  
+}
+.isDisabled{
+    border-radius: 5px;
+    border: 1px solid red;
+    text-align: center;
+    padding: 2px;
+    width: 115px;  
+}
+.MuiTableSortLabel-root.MuiTableSortLabel-active {
+    color: #fff !important;
+}
+.MuiTableSortLabel-root.MuiTableSortLabel-active.MuiTableSortLabel-root.MuiTableSortLabel-active .MuiTableSortLabel-icon {
+    color: #fff !important;
+    opacity: 1;
+}
+input, optgroup, textarea { 
+    width: 100%; 
+    height: 20px;
+    padding: 17px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+.active{ 
+    color: #4ce949 !important;
+  }

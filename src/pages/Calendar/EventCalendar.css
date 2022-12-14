@@ -1,0 +1,9 @@
+.event{
+    flex: 4;
+    margin: 10px;
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}

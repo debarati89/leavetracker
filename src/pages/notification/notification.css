@@ -1,0 +1,35 @@
+
+
+.label {
+  border: 1px solid rgb(209, 206, 206);
+width: 100px;
+text-align: center;
+  padding: 4px 0px;  
+}
+.UserTitle{
+  color:rgb(160, 160, 160);
+  width: 80px;
+  border: 1px solid rgb(209, 206, 206) ;
+  margin: 80px 0;
+  padding: 10px 0;
+}
+.labelSubject {
+  width: 100px;
+  text-align: center;
+    padding: 2px 0px;  
+  }
+.UserItem{
+    display: flex;
+    padding: 3px;
+    margin-right: 10px;
+    width: 250%;
+
+}
+.notifyInput{
+border: 1px solid white;
+border-bottom: 1px solid rgb(209, 206, 206);
+
+}
+.alignbutton{
+  display: flex;
+}

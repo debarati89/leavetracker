@@ -1,0 +1,23 @@
+.home{
+    flex: 4;
+    padding-top: 10px;
+}
+
+.homeWidgets{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+.welcomeUser{
+    margin-left: 20px;
+    font-size: 30px;
+    color:#667eea;
+
+}
+.dashboard{
+font-size: 20px;
+ color:#667eea;
+
+}

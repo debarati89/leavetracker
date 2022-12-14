@@ -1,0 +1,124 @@
+.topbar {
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(to right, #505050 0%, #333 100%);
+  
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbarWrapper {
+  height: 100%;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo { 
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400; 
+} 
+.topleft{
+    display: flex;
+    align-items: center; 
+}
+.menuDiv {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 2px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.title { 
+  font-size: 18px;
+  color: #4ce949; 
+   
+}
+.span{
+  text-align: center;
+}
+
+
+.topbarIconContainer {
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.topIconBadge{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(247, 52, 52);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.popoverbutton{
+  border-color: transparent !important;
+  background-color: transparent !important;
+  outline-color: transparent !important;
+}
+.popoverbutton:hover{
+  background-color:black !important;
+  border-color: transparent !important;
+}
+.popoverbutton:focus:not(:focus-visible) {
+  outline: 0 !important;
+  box-shadow: none !important;
+  outline-color: transparent !important;
+  background-color:black !important;
+}
+
+.media-body {
+  -ms-flex: 1;
+  flex: 1;
+  
+}
+.noti-details {
+  color: #989c9e;
+  margin-bottom: 0;
+}
+.noti-title {
+  color: #333;
+}
+.noti-time {
+  margin: 0;
+}
+.notifications .notification-time {
+  font-size: 12px;
+  line-height: 1.35;
+  color: #bdbdbd;
+}
+.userButton{
+  position: relative;
+  background-color:rgb(53, 52, 52);
+  border-radius: 15px;
+  margin: 10px;
+  color:white;
+  border: 2px solid rgb(53, 52, 52) ;
+  font-weight: 500;
+}
+
+.userButton:active{
+  transform: translateY(3px);
+}
+.userButton:active:before{
+  transform: translateY(0);
+}
